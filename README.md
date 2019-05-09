@@ -1,6 +1,9 @@
 # GoodLineTest
 Тестовое задание от GoodLine
 
+# Тесты и игра
+[Документ со скриншотами](https://docs.google.com/document/d/1H5QsX-UveTyg7zohvS-tbVta-DE-nCInqh823f9OkL0/edit?usp=sharing "Документ") 
+
 # Компиляция
 javac LenOfFirstLine.java
 
