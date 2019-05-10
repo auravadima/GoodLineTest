@@ -6,7 +6,8 @@
 
 # Задание 2
 компиляция
-javac LenOfFirstLine.java
+javac LenOfFirstLine.java  
+запуск  
 java LenOfFirstLine LenOfFirstLine
 
 # Необходимые тесты (Задача 3)
