@@ -5,7 +5,7 @@
 [Документ со скриншотами](https://docs.google.com/document/d/1H5QsX-UveTyg7zohvS-tbVta-DE-nCInqh823f9OkL0/edit?usp=sharing "Документ") 
 
 # Задание 2
-компиляция
+компиляция  
 javac LenOfFirstLine.java  
 запуск  
 java LenOfFirstLine LenOfFirstLine
