@@ -1,13 +1,25 @@
 import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.chrome.ChromeOptions;
+
 
 class Utils {
+
+    private static WebDriver driver;
+
     static WebDriver createChromeDriverAtRasp(final String from, final String to, final String when, boolean onlyBuses){
-        WebDriver driver = new ChromeDriver();
+
+        if(driver == null){
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--headless");
+            options.addArguments("disable-gpu");
+            driver = new ChromeDriver(options);
+        }
+
+
         driver.get("https://rasp.yandex.ru");
 
         WebElement fromInput = driver.findElement(By.name("fromName"));
