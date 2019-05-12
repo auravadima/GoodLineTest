@@ -3,22 +3,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-
 
 class Utils {
 
-    private static WebDriver driver;
-
     static WebDriver createChromeDriverAtRasp(final String from, final String to, final String when, boolean onlyBuses){
 
-        if(driver == null){
-            ChromeOptions options = new ChromeOptions();
-            options.addArguments("--headless");
-            options.addArguments("disable-gpu");
-            driver = new ChromeDriver(options);
-        }
-
+        WebDriver driver = new ChromeDriver();
 
         driver.get("https://rasp.yandex.ru");
 

@@ -1,16 +1,19 @@
-import org.junit.*;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SecondTestList {
+
+public class SecondTest {
 
     private static WebDriver driver;
 
-    @BeforeClass
+    @BeforeAll
     public static void setup() {
         final String from = "Кемерово проспект Ленина";
         final String to = "Кемерово Бакинский переулок";
@@ -21,7 +24,7 @@ public class SecondTestList {
                 .until(ExpectedConditions.elementToBeClickable(By.className("ErrorPageSearchForm__title")));
     }
 
-    @AfterClass
+    @AfterAll
     public static void after() {
         if (driver != null) {
             driver.close();

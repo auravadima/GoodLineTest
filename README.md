@@ -17,12 +17,12 @@ java LenOfFirstLine {filename}
 Проект с тестами в папке testapp.  
 Для запуска тестов необходимо в папке запустить комманды:  
 mvn -N io.takari:maven:0.7.6:wrapper  
-mvn clean test  
+mvnw test  
 Для реализации тестов были использованы Java, Maven, JUnit, Rest Assured.
 
 # Задача 5
 Проект с тестами в папке autoapp.  
 Для запуска тестов необходимо в папке запустить комманды:  
 mvn -N io.takari:maven:0.7.6:wrapper  
-mvn clean test  
+mvnw test  
 Для реализации тестов были использованы Java, Maven, JUnit, Selenium WebDriver.

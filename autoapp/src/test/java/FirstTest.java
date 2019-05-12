@@ -1,4 +1,6 @@
-import org.junit.*;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,14 +9,15 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class FirstTestList {
+public class FirstTest {
 
     private static WebDriver driver;
     private static List<WebElement> flights;
 
-    @BeforeClass
+    @BeforeAll
     public static void setup() throws InterruptedException {
         final String from = "Кемерово";
         final String to = "Москва";
@@ -25,11 +28,11 @@ public class FirstTestList {
                 return d.getTitle().startsWith(String.format("Расписание транспорта %s — %s", from, to));
             }
         });
-        Thread.sleep(100);
+        Thread.sleep(1000);
         flights = driver.findElements(By.className("SearchSegment"));
     }
 
-    @AfterClass
+    @AfterAll
     public static void after() {
         if (driver != null) {
             driver.close();
@@ -51,7 +54,7 @@ public class FirstTestList {
 
     @Test
     public void flight_count_test() {
-        Assert.assertEquals(4, flights.size());
+        assertEquals(4, flights.size());
     }
 
     @Test
