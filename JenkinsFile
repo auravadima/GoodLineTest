@@ -4,7 +4,11 @@ node {
    }
    stage('Test') {
         dir ('crossBrowserTest') {
-            sh '"/mnt/c/apache-maven-3.6.1/bin/mvn" test'
+            if(isUnix()){
+            sh '"linuxMavenPath" test'
+            } else {
+                bat(/"winMavenPath" test/)
+            }
         }
    }
    stage('Results') {

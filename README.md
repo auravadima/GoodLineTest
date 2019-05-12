@@ -33,4 +33,6 @@ mvn test
 mvn test  
 
 # Jenkins PipeLine
-JenkinsFile находится в корневой папке
+JenkinsFile находится в корневой папке  
+Заменить linuxMavenPath или winMavenPath на ваш путь maven 
+Например /mnt/c/apache-maven-3.6.1/bin/mvn
