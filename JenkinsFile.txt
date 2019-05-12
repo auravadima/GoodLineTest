@@ -1,0 +1,14 @@
+node {
+   stage('Preparation') {
+        git 'https://github.com/auravadima/GoodLineTest.git'
+   }
+   stage('Test') {
+        dir ('crossBrowserTest') {
+            sh '"/mnt/c/apache-maven-3.6.1/bin/mvn" test'
+        }
+   }
+   stage('Results') {
+      junit '**/target/surefire-reports/TEST-*.xml'
+      archiveArtifacts 'target/*.jar'
+   }
+}
