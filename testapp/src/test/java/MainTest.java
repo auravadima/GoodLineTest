@@ -4,19 +4,10 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.*;
 
-class Formats {
-    final static String JSON = "json";
-    final static String XML = "xml";
-}
+public class MainTest{
 
-class Langs {
-    final static String RU = "ru_RU";
-    final  static  String UK = "uk_UA";
-}
-
-class Main {
-    private  static  final  String yandexHtml = "https://api.rasp.yandex.net/v3.0";
-    private static final String key = "47578f4e-0b00-45d2-be0d-2b263e9b5c04";
+    private final  String yandexHtml = "https://api.rasp.yandex.net/v3.0";
+    private final String key = "47578f4e-0b00-45d2-be0d-2b263e9b5c04";
 
     // Nearest settlement tests
     @Test
@@ -25,10 +16,10 @@ class Main {
                 baseUri(yandexHtml).
                 contentType(ContentType.JSON).
                 header("Authorization", key).
-                param("format", Formats.JSON).
+                param("format", "json").
                 param("lat", 40).
                 param("lng", 20).
-                param("lang", Langs.RU).
+                param("lang", "ru_RU").
                 param("distance", 50).
                 when().
                 get("/nearest_settlement").
@@ -43,10 +34,10 @@ class Main {
                 baseUri(yandexHtml).
                 contentType(ContentType.JSON).
                 header("Authorization", key).
-                param("format", Formats.JSON).
+                param("format", "json").
                 param("lat", 40).
                 param("lng", 20).
-                param("lang", Langs.UK).
+                param("lang", "uk_UA").
                 param("distance", 50).
                 when().
                 get("/nearest_settlement").
@@ -61,10 +52,10 @@ class Main {
                 baseUri(yandexHtml).
                 contentType(ContentType.JSON).
                 header("Authorization", key).
-                param("format", Formats.JSON).
+                param("format", "json").
                 param("lat", 40).
                 param("lng", 20).
-                param("lang", Langs.RU).
+                param("lang", "ru_RU").
                 param("distance", 100).
                 when().
                 get("/nearest_settlement").
@@ -80,10 +71,10 @@ class Main {
                 baseUri(yandexHtml).
                 contentType(ContentType.JSON).
                 header("Authorization", key).
-                param("format", Formats.JSON).
+                param("format", "json").
                 param("lat", 40).
                 param("lng", 20).
-                param("lang", Langs.RU).
+                param("lang", "ru_RU").
                 param("distance", 0).
                 when().
                 get("/nearest_settlement").
@@ -98,10 +89,10 @@ class Main {
                 baseUri(yandexHtml).
                 contentType(ContentType.JSON).
                 header("Authorization", key).
-                param("format", Formats.JSON).
+                param("format", "json").
                 param("lat", 91).
                 param("lng", 20).
-                param("lang", Langs.RU).
+                param("lang", "ru_RU").
                 param("distance", 50).
                 when().
                 get("/nearest_settlement").
@@ -116,10 +107,10 @@ class Main {
                 baseUri(yandexHtml).
                 contentType(ContentType.JSON).
                 header("Authorization", key).
-                param("format", Formats.JSON).
+                param("format", "json").
                 param("lat", -91).
                 param("lng", 20).
-                param("lang", Langs.RU).
+                param("lang", "ru_RU").
                 param("distance", 50).
                 when().
                 get("/nearest_settlement").
@@ -134,10 +125,10 @@ class Main {
                 baseUri(yandexHtml).
                 contentType(ContentType.JSON).
                 header("Authorization", key).
-                param("format", Formats.JSON).
+                param("format", "json").
                 param("lat", 40).
                 param("lng", -181).
-                param("lang", Langs.RU).
+                param("lang", "ru_RU").
                 param("distance", 50).
                 when().
                 get("/nearest_settlement").
@@ -152,10 +143,10 @@ class Main {
                 baseUri(yandexHtml).
                 contentType(ContentType.JSON).
                 header("Authorization", key).
-                param("format", Formats.JSON).
+                param("format", "json").
                 param("lat", 40).
                 param("lng", 181).
-                param("lang", Langs.RU).
+                param("lang", "ru_RU").
                 param("distance", 50).
                 when().
                 get("/nearest_settlement").
@@ -170,7 +161,7 @@ class Main {
                 baseUri(yandexHtml).
                 contentType(ContentType.JSON).
                 header("Authorization", key).
-                param("format", Formats.JSON).
+                param("format", "json").
                 param("lat", 40).
                 param("lng", 20).
                 param("distance", 50).
@@ -189,7 +180,7 @@ class Main {
                 header("Authorization", key).
                 param("lat", 40).
                 param("lng", 20).
-                param("lang", Langs.RU).
+                param("lang", "ru_RU").
                 param("distance", 50).
                 when().
                 get("/nearest_settlement").
@@ -204,9 +195,9 @@ class Main {
                 baseUri(yandexHtml).
                 contentType(ContentType.JSON).
                 header("Authorization", key).
-                param("format", Formats.JSON).
+                param("format", "json").
                 param("lng", 20).
-                param("lang", Langs.RU).
+                param("lang", "ru_RU").
                 param("distance", 50).
                 when().
                 get("/nearest_settlement").
@@ -221,9 +212,9 @@ class Main {
                 baseUri(yandexHtml).
                 contentType(ContentType.JSON).
                 header("Authorization", key).
-                param("format", Formats.JSON).
+                param("format", "json").
                 param("lat", 40).
-                param("lang", Langs.RU).
+                param("lang", "ru_RU").
                 param("distance", 50).
                 when().
                 get("/nearest_settlement").
@@ -238,11 +229,11 @@ class Main {
                 baseUri(yandexHtml).
                 contentType(ContentType.JSON).
                 header("Authorization", key).
-                param("format", Formats.JSON).
+                param("format", "json").
                 param("lat", 39.9).
                 param("lng", 30.4).
                 param("distance", 50).
-                param("lang", Langs.RU).
+                param("lang", "ru_RU").
                 when().
                 get("/nearest_settlement").
                 then().
@@ -255,10 +246,10 @@ class Main {
         given().
                 baseUri(yandexHtml).
                 contentType(ContentType.JSON).
-                param("format", Formats.JSON).
+                param("format", "json").
                 param("lat", 40).
                 param("lng", 20).
-                param("lang", Langs.RU).
+                param("lang", "ru_RU").
                 param("distance", 50).
                 when().
                 get("/nearest_settlement").
@@ -273,10 +264,10 @@ class Main {
                 baseUri(yandexHtml).
                 contentType(ContentType.XML).
                 header("Authorization", key).
-                param("format", Formats.XML).
+                param("format", "xml").
                 param("lat", 40).
                 param("lng", 20).
-                param("lang", Langs.RU).
+                param("lang", "ru_RU").
                 param("distance", 50).
                 when().
                 get("/nearest_settlement").
@@ -293,8 +284,8 @@ class Main {
                 contentType(ContentType.JSON).
                 header("Authorization", key).
                 param("code", "TK").
-                param("format", Formats.JSON).
-                param("lang", Langs.RU).
+                param("format", "json").
+                param("lang", "ru_RU").
                 param("system", "iata").
                 when().
                 get("/carrier").
@@ -310,8 +301,8 @@ class Main {
                 contentType(ContentType.JSON).
                 header("Authorization", key).
                 param("code", "qwerty").
-                param("format", Formats.JSON).
-                param("lang", Langs.RU).
+                param("format", "json").
+                param("lang", "ru_RU").
                 param("system", "iata").
                 when().
                 get("/carrier").
@@ -326,8 +317,8 @@ class Main {
                 baseUri(yandexHtml).
                 contentType(ContentType.JSON).
                 header("Authorization", key).
-                param("format", Formats.JSON).
-                param("lang", Langs.RU).
+                param("format", "json").
+                param("lang", "ru_RU").
                 param("system", "iata").
                 when().
                 get("/carrier").
@@ -344,8 +335,8 @@ class Main {
                 header("Authorization", key).
                 param("code", "SCH").
                 param("code", "TK").
-                param("format", Formats.JSON).
-                param("lang", Langs.RU).
+                param("format", "json").
+                param("lang", "ru_RU").
                 param("system", "iata").
                 when().
                 get("/carrier").
@@ -362,7 +353,7 @@ class Main {
                 baseUri(yandexHtml).
                 contentType(ContentType.JSON).
                 header("Authorization", key).
-                param("format", Formats.JSON).
+                param("format", "json").
                 when().
                 get("/copyright").
                 then().
