@@ -26,3 +26,11 @@ mvnw test
 mvn -N io.takari:maven:0.7.6:wrapper  
 mvnw test  
 Для реализации тестов были использованы Java, Maven, JUnit, Selenium WebDriver.
+
+# Задача 6
+Проект с кроссбразерным тестированием в папке crossBrowserTest  
+Для запуска тестов необходимо предварительно установить selenoid  
+Запустить selenoid с параметрами selenoid start  
+После завершения запустить тесты, для этого в папке с проектом:  
+mvn -N io.takari:maven:0.7.6:wrapper  
+mvnw test  
