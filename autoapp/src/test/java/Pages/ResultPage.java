@@ -13,6 +13,8 @@ public class ResultPage {
     private ElementsCollection flights;
     private ElementsCollection icons;
     private ElementsCollection names;
+    private ElementsCollection durations;
+
 
 
     public ResultPage(){
@@ -21,6 +23,7 @@ public class ResultPage {
         names = $$(By.className("SegmentTitle__title"));
         icons =  $$(By.className("TransportIcon__icon"));
         flights = $$(By.className("SearchSegment"));
+        durations = $$(By.className("SearchSegment__duration"));
     }
 
     public SelenideElement getTitle(){
@@ -35,6 +38,9 @@ public class ResultPage {
     }
     public ElementsCollection getIcons(){
         return icons;
+    }
+    public ElementsCollection getDurations() {
+        return durations;
     }
 
     public SelenideElement getErrorElement(){

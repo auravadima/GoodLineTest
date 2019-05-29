@@ -1,3 +1,5 @@
+import Pages.MainPage;
+import Pages.ResultPage;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -9,7 +11,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FirefoxSecondTest {
+
     private static WebDriver driver;
+    private static ResultPage resultPage;
 
     @BeforeAll
     public static void setup() {
@@ -17,8 +21,12 @@ public class FirefoxSecondTest {
         final String to = "Кемерово Бакинский переулок";
         final String when = "среда";
 
-        driver = Utils.createFirefoxDriverAtRasp();
-        Utils.fillForm(driver, from ,to, when, true);
+        driver = Utils.createFirefoxDriver();
+        MainPage mainPage = new MainPage(driver);
+        mainPage.setFromField(from);
+        mainPage.setToField(to);
+        mainPage.setWhen(when);
+        resultPage = mainPage.submit();
         (new WebDriverWait(driver, 10))
                 .until(ExpectedConditions.elementToBeClickable(By.className("ErrorPageSearchForm__title")));
     }
@@ -34,6 +42,6 @@ public class FirefoxSecondTest {
     @Test
     public void not_found_flight_test() {
         assertEquals("Пункт прибытия не найден. Проверьте правильность написания или выберите другой город.",
-                driver.findElement(By.cssSelector(".ErrorPageSearchForm__title:last-child")).getText());
+                resultPage.getErrorElement().getText());
     }
 }

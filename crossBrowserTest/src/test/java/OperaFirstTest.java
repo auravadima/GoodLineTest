@@ -1,3 +1,5 @@
+import Pages.MainPage;
+import Pages.ResultPage;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -13,20 +15,25 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class OperaFirstTest {
+
     private static WebDriver driver;
-    private static List<WebElement> flights;
+    private static ResultPage resultPage;
 
     @BeforeAll
     public static void setup() throws InterruptedException {
         final String from = "Кемерово";
         final String to = "Москва";
         final String when = "7 июля";
-        driver = Utils.createOperaDriverAtRasp();
-        Utils.fillForm(driver, from, to, when, false);
+        driver = Utils.createChromeDriver();
+        MainPage mainPage = new MainPage(driver);
+        mainPage.setFromField(from);
+        mainPage.setToField(to);
+        mainPage.setWhen(when);
+        resultPage = mainPage.submit();
+
         (new WebDriverWait(driver, 10)).until((ExpectedCondition<Boolean>) d ->
                 d.getTitle().startsWith(String.format("Расписание транспорта %s — %s", from, to)));
         Thread.sleep(1000);
-        flights = driver.findElements(By.className("SearchSegment"));
     }
 
     @AfterAll
@@ -38,47 +45,21 @@ public class OperaFirstTest {
 
     @Test
     public void flight_name_test() {
-        boolean isNameExists = true;
-        for (WebElement flight :
-                flights) {
-            if (!flight.findElement(By.className("SegmentTitle__header")).getText().contains("Кемерово — Москва")) {
-                isNameExists = false;
-                break;
-            }
-        }
-        assertTrue(isNameExists);
+        assertEquals(4, resultPage.getNames().size());
     }
 
     @Test
     public void flight_count_test() {
-        assertEquals(4, flights.size());
+        assertEquals(4, resultPage.getFlights().size());
     }
 
     @Test
     public void flight_icon_test() {
-        boolean isIconExist = true;
-        for (WebElement flight :
-                flights) {
-            if (flight.findElement(By.className("TransportIcon__icon")) == null) {
-                isIconExist = false;
-                break;
-            }
-        }
-        assertTrue(isIconExist);
+        assertEquals(4, resultPage.getIcons().size());
     }
 
     @Test
     public void flight_time_test() {
-        boolean isTimeExist = true;
-        for (WebElement flight :
-                flights) {
-            WebElement flightDuration = flight.findElement(By.className("SearchSegment__duration"));
-            if (flightDuration.getText() == null || flight.getText().length() == 0) {
-                System.out.println(flightDuration.getText());
-                isTimeExist = false;
-                break;
-            }
-        }
-        assertTrue(isTimeExist);
+        assertEquals(4, resultPage.getDurations().size());
     }
 }

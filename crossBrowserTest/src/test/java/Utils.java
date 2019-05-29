@@ -8,11 +8,13 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import java.net.MalformedURLException;
 import java.net.URI;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 class Utils {
 
     private static String uri = "http://localhost:4444/wd/hub";
 
-    static WebDriver createChromeDriverAtRasp(){
+    static WebDriver createChromeDriver(){
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setBrowserName("chrome");
@@ -30,12 +32,10 @@ class Utils {
             e.printStackTrace();
         }
 
-        driver.get("https://rasp.yandex.ru");
-
         return driver;
     }
 
-    static WebDriver createFirefoxDriverAtRasp(){
+    static WebDriver createFirefoxDriver(){
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setBrowserName("firefox");
@@ -53,12 +53,10 @@ class Utils {
             e.printStackTrace();
         }
 
-        driver.get("https://rasp.yandex.ru");
-
         return driver;
     }
 
-    static WebDriver createOperaDriverAtRasp(){
+    static WebDriver createOperaDriver(){
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setBrowserName("opera");
@@ -76,28 +74,6 @@ class Utils {
             e.printStackTrace();
         }
 
-        driver.get("https://rasp.yandex.ru");
-
         return driver;
-    }
-
-
-    static  void fillForm(WebDriver driver, String from, String to, String when, boolean onlyBuses){
-        WebElement fromInput = driver.findElement(By.name("fromName"));
-        fromInput.clear();
-        fromInput.sendKeys(from);
-
-        WebElement toInput = driver.findElement((By.name("toName")));
-        toInput.sendKeys(to);
-
-        WebElement dateInput = driver.findElement(By.id("when"));
-        dateInput.sendKeys(when);
-
-        if(onlyBuses){
-            WebElement busRadioButton = driver.findElement(By.cssSelector(".RadioButton:nth-child(5) > .RadioButton__buttonLable"));
-            busRadioButton.click();
-        }
-
-        dateInput.submit();
     }
 }

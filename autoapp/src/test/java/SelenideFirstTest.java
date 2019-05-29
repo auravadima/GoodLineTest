@@ -23,18 +23,20 @@ public class SelenideFirstTest {
     @Test
     public void flight_name_test() {
         resultPage.getNames().shouldHaveSize(3);
-//        $$(By.className("SegmentTitle__title")).shouldHaveSize(3);
     }
 
     @Test
     public void flight_count_test() {
         resultPage.getFlights().shouldHaveSize(3);
-//        $$(By.className("SearchSegment")).shouldHaveSize(3);
     }
 
     @Test
     public void flight_icon_test() {
         resultPage.getIcons().shouldHaveSize(3);
-//        $$(By.className("TransportIcon__icon")).shouldHaveSize(3);
+    }
+
+    @Test
+    public void flight_time_test() {
+        resultPage.getDurations().shouldHaveSize(3);
     }
 }

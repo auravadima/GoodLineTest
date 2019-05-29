@@ -13,6 +13,7 @@ public class MainPage {
     private SelenideElement when;
 
     public MainPage(){
+        String sss = "ddfdsdfsdf";
         open("https://rasp.yandex.ru");
         from = $(By.id("from"));
         to = $(By.id("to"));
