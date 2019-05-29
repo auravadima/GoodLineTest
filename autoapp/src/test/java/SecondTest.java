@@ -19,7 +19,6 @@ public class SecondTest {
         final String to = "Кемерово Бакинский переулок";
         final String when = "среда";
 
-        driver = Utils.createChromeDriverAtRasp(from, to, when, true);
         (new WebDriverWait(driver, 10))
                 .until(ExpectedConditions.elementToBeClickable(By.className("ErrorPageSearchForm__title")));
     }

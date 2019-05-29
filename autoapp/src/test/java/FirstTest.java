@@ -77,7 +77,6 @@ public class FirstTest {
                 flights) {
             WebElement flightDuration = flight.findElement(By.className("SearchSegment__duration"));
             if (flightDuration.getText() == null || flight.getText().length() == 0) {
-                System.out.println(flightDuration.getText());
                 isTimeExist = false;
                 break;
             }
