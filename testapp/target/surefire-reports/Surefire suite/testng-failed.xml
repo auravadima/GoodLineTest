@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="SettlementTest">
+        <methods>
+          <include name="nearest_settlement_standart_request"/>
+          <include name="nearest_settlement_without_Lang"/>
+          <include name="nearest_settlement_standart_request_uk"/>
+          <include name="nearest_settlement_lng_above_maximum"/>
+          <include name="nearest_settlement_without_format"/>
+          <include name="nearest_settlement_without_lng"/>
+          <include name="setupParams"/>
+          <include name="nearest_settlement_distance_equal_zero"/>
+          <include name="nearest_settlement_lng_below_minimum"/>
+          <include name="nearest_settlement_xml_test"/>
+        </methods>
+      </class> <!-- SettlementTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

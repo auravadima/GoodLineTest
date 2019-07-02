@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="SettlementTest" time="14.678" tests="14" errors="0" skipped="0" failures="13">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\aurav\Desktop\GoodLineTest\testapp\target\test-classes;C:\Users\aurav\Desktop\GoodLineTest\testapp\target\classes;C:\Users\aurav\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\aurav\.m2\repository\org\slf4j\slf4j-simple\1.7.25\slf4j-simple-1.7.25.jar;C:\Users\aurav\.m2\repository\io\qameta\allure\allure-rest-assured\2.12.1\allure-rest-assured-2.12.1.jar;C:\Users\aurav\.m2\repository\io\qameta\allure\allure-attachments\2.12.1\allure-attachments-2.12.1.jar;C:\Users\aurav\.m2\repository\io\qameta\allure\allure-java-commons\2.12.1\allure-java-commons-2.12.1.jar;C:\Users\aurav\.m2\repository\io\qameta\allure\allure-model\2.12.1\allure-model-2.12.1.jar;C:\Users\aurav\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\aurav\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\aurav\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\aurav\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\aurav\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\aurav\.m2\repository\org\freemarker\freemarker\2.3.28\freemarker-2.3.28.jar;C:\Users\aurav\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\aurav\.m2\repository\io\rest-assured\rest-assured\4.0.0\rest-assured-4.0.0.jar;C:\Users\aurav\.m2\repository\org\codehaus\groovy\groovy\2.5.6\groovy-2.5.6.jar;C:\Users\aurav\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.6\groovy-xml-2.5.6.jar;C:\Users\aurav\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\aurav\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\aurav\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\aurav\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\aurav\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\aurav\.m2\repository\org\hamcrest\hamcrest-core\2.1\hamcrest-core-2.1.jar;C:\Users\aurav\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\aurav\.m2\repository\org\hamcrest\hamcrest-library\2.1\hamcrest-library-2.1.jar;C:\Users\aurav\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\aurav\.m2\repository\io\rest-assured\json-path\4.0.0\json-path-4.0.0.jar;C:\Users\aurav\.m2\repository\org\codehaus\groovy\groovy-json\2.5.6\groovy-json-2.5.6.jar;C:\Users\aurav\.m2\repository\io\rest-assured\rest-assured-common\4.0.0\rest-assured-common-4.0.0.jar;C:\Users\aurav\.m2\repository\io\rest-assured\xml-path\4.0.0\xml-path-4.0.0.jar;C:\Users\aurav\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\aurav\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\aurav\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar;C:\Users\aurav\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\aurav\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\aurav\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\aurav\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\aurav\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\aurav\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\aurav\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\aurav\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Krasnoyarsk"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\aurav\AppData\Local\Temp\surefire6092063075639142963\surefirebooter14191519258486506155.jar C:\Users\aurav\AppData\Local\Temp\surefire6092063075639142963 2019-07-03T00-59-42_116-jvmRun1 surefire8255770305270929000tmp surefire_010435237391799947646tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\aurav\Desktop\GoodLineTest\testapp\target\test-classes;C:\Users\aurav\Desktop\GoodLineTest\testapp\target\classes;C:\Users\aurav\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\aurav\.m2\repository\org\slf4j\slf4j-simple\1.7.25\slf4j-simple-1.7.25.jar;C:\Users\aurav\.m2\repository\io\qameta\allure\allure-rest-assured\2.12.1\allure-rest-assured-2.12.1.jar;C:\Users\aurav\.m2\repository\io\qameta\allure\allure-attachments\2.12.1\allure-attachments-2.12.1.jar;C:\Users\aurav\.m2\repository\io\qameta\allure\allure-java-commons\2.12.1\allure-java-commons-2.12.1.jar;C:\Users\aurav\.m2\repository\io\qameta\allure\allure-model\2.12.1\allure-model-2.12.1.jar;C:\Users\aurav\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\aurav\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\aurav\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\aurav\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\aurav\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\aurav\.m2\repository\org\freemarker\freemarker\2.3.28\freemarker-2.3.28.jar;C:\Users\aurav\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\aurav\.m2\repository\io\rest-assured\rest-assured\4.0.0\rest-assured-4.0.0.jar;C:\Users\aurav\.m2\repository\org\codehaus\groovy\groovy\2.5.6\groovy-2.5.6.jar;C:\Users\aurav\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.6\groovy-xml-2.5.6.jar;C:\Users\aurav\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\aurav\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\aurav\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\aurav\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\aurav\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\aurav\.m2\repository\org\hamcrest\hamcrest-core\2.1\hamcrest-core-2.1.jar;C:\Users\aurav\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\aurav\.m2\repository\org\hamcrest\hamcrest-library\2.1\hamcrest-library-2.1.jar;C:\Users\aurav\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\aurav\.m2\repository\io\rest-assured\json-path\4.0.0\json-path-4.0.0.jar;C:\Users\aurav\.m2\repository\org\codehaus\groovy\groovy-json\2.5.6\groovy-json-2.5.6.jar;C:\Users\aurav\.m2\repository\io\rest-assured\rest-assured-common\4.0.0\rest-assured-common-4.0.0.jar;C:\Users\aurav\.m2\repository\io\rest-assured\xml-path\4.0.0\xml-path-4.0.0.jar;C:\Users\aurav\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\aurav\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\aurav\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar;C:\Users\aurav\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\aurav\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\aurav\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\aurav\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\aurav\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\aurav\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\aurav\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\aurav\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\aurav"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-12.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\aurav\Desktop\GoodLineTest\testapp"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\aurav\AppData\Local\Temp\surefire6092063075639142963\surefirebooter14191519258486506155.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="12.0.1+12"/>
+    <property name="user.name" value="aurav"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\aurav\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\aurav\AppData\Local\Temp\"/>
+    <property name="java.version" value="12.0.1"/>
+    <property name="user.dir" value="C:\Users\aurav\Desktop\GoodLineTest\testapp"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-12.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;A:\NODEJS\;C:\Program Files\dotnet\;;C:\Users\aurav\scoop\shims;A:\Anaconda;A:\Anaconda\Library\mingw-w64\bin;A:\Anaconda\Library\usr\bin;A:\Anaconda\Library\bin;A:\Anaconda\Scripts;C:\Users\aurav\AppData\Local\Programs\Python\Launcher\;C:\Users\aurav\AppData\Local\Microsoft\WindowsApps;C:\Users\aurav\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\aurav\AppData\Roaming\npm;C:\Program Files\Java\jdk-12.0.1\bin;C:\apache-maven-3.6.1\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="12.0.1+12"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="56.0"/>
+  </properties>
+  <testcase name="nearest_settlement_without_lat" classname="SettlementTest" time="0.772"/>
+  <testcase name="nearest_settlement_without_lng" classname="SettlementTest" time="1.001">
+    <failure message="1 expectation failed.&#10;JSON path error.text doesn&apos;t match.&#10;Expected: lng: Не указан параметр lng.&#10;  Actual: lat: Не указан параметр lat.  lng: Не указан параметр lng.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+1 expectation failed.
+JSON path error.text doesn't match.
+Expected: lng: Не указан параметр lng.
+  Actual: lat: Не указан параметр lat.  lng: Не указан параметр lng.
+
+	at SettlementTest.nearest_settlement_without_lng(SettlementTest.java:178)
+</failure>
+    <system-out><![CDATA[Request params:	distance=50
+				format=json
+				lang=ru_RU
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+]]></system-err>
+  </testcase>
+  <testcase name="nearest_settlement_standart_request" classname="SettlementTest" time="1.144">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at SettlementTest.nearest_settlement_standart_request(SettlementTest.java:32)
+]]></failure>
+    <system-out><![CDATA[Request params:	distance=50
+				format=json
+				lang=ru_RU
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+]]></system-err>
+  </testcase>
+  <testcase name="nearest_settlement_without_Lang" classname="SettlementTest" time="0.786">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at SettlementTest.nearest_settlement_without_Lang(SettlementTest.java:141)
+]]></failure>
+    <system-out><![CDATA[Request params:	distance=50
+				format=json
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+]]></system-err>
+  </testcase>
+  <testcase name="nearest_settlement_standart_request_uk" classname="SettlementTest" time="1.395">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at SettlementTest.nearest_settlement_standart_request_uk(SettlementTest.java:44)
+]]></failure>
+    <system-out><![CDATA[Request params:	distance=50
+				format=json
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+]]></system-err>
+  </testcase>
+  <testcase name="nearest_settlement_xml_test" classname="SettlementTest" time="1.545">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at SettlementTest.nearest_settlement_xml_test(SettlementTest.java:56)
+]]></failure>
+    <system-out><![CDATA[Request params:	distance=50
+				format=xml
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+]]></system-err>
+  </testcase>
+  <testcase name="nearest_settlement_distance_above_maximum" classname="SettlementTest" time="1.475">
+    <failure message="1 expectation failed.&#10;XML path error.text doesn&apos;t match.&#10;Expected: distance: Параметр distance должен быть числом от 0 до 50, по умолчанию 10&#10;  Actual: &#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+1 expectation failed.
+XML path error.text doesn't match.
+Expected: distance: Параметр distance должен быть числом от 0 до 50, по умолчанию 10
+  Actual: 
+
+	at SettlementTest.nearest_settlement_distance_above_maximum(SettlementTest.java:69)
+</failure>
+    <system-out><![CDATA[Request params:	distance=100
+				format=xml
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+]]></system-err>
+  </testcase>
+  <testcase name="nearest_settlement_lng_above_maximum" classname="SettlementTest" time="1.257">
+    <failure message="1 expectation failed.&#10;XML path error.text doesn&apos;t match.&#10;Expected: lng: Параметр lng должен быть числом в диапазоне от -180 до 180&#10;  Actual: &#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+1 expectation failed.
+XML path error.text doesn't match.
+Expected: lng: Параметр lng должен быть числом в диапазоне от -180 до 180
+  Actual: 
+
+	at SettlementTest.nearest_settlement_lng_above_maximum(SettlementTest.java:130)
+</failure>
+    <system-out><![CDATA[Request params:	distance=100
+				format=xml
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+]]></system-err>
+  </testcase>
+  <testcase name="nearest_settlement_lng_below_minimum" classname="SettlementTest" time="0.994">
+    <failure message="1 expectation failed.&#10;XML path error.text doesn&apos;t match.&#10;Expected: lng: Параметр lng должен быть числом в диапазоне от -180 до 180&#10;  Actual: &#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+1 expectation failed.
+XML path error.text doesn't match.
+Expected: lng: Параметр lng должен быть числом в диапазоне от -180 до 180
+  Actual: 
+
+	at SettlementTest.nearest_settlement_lng_below_minimum(SettlementTest.java:118)
+</failure>
+    <system-out><![CDATA[Request params:	distance=100
+				format=xml
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+]]></system-err>
+  </testcase>
+  <testcase name="nearest_settlement_lat_above_maximum" classname="SettlementTest" time="0.898">
+    <failure message="1 expectation failed.&#10;XML path error.text doesn&apos;t match.&#10;Expected: lat: Параметр lat должен быть числом в диапазоне от -90 до 90&#10;  Actual: &#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+1 expectation failed.
+XML path error.text doesn't match.
+Expected: lat: Параметр lat должен быть числом в диапазоне от -90 до 90
+  Actual: 
+
+	at SettlementTest.nearest_settlement_lat_above_maximum(SettlementTest.java:94)
+</failure>
+    <system-out><![CDATA[Request params:	distance=100
+				format=xml
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+]]></system-err>
+  </testcase>
+  <testcase name="nearest_settlement_distance_equal_zero" classname="SettlementTest" time="0.761">
+    <failure message="1 expectation failed.&#10;XML path error.text doesn&apos;t match.&#10;Expected: distance: Параметр distance должен быть числом от 0 до 50, по умолчанию 10&#10;  Actual: &#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+1 expectation failed.
+XML path error.text doesn't match.
+Expected: distance: Параметр distance должен быть числом от 0 до 50, по умолчанию 10
+  Actual: 
+
+	at SettlementTest.nearest_settlement_distance_equal_zero(SettlementTest.java:82)
+</failure>
+    <system-out><![CDATA[Request params:	distance=0
+				format=xml
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+]]></system-err>
+  </testcase>
+  <testcase name="nearest_settlement_lat_below_minimum" classname="SettlementTest" time="1.092">
+    <failure message="1 expectation failed.&#10;XML path error.text doesn&apos;t match.&#10;Expected: lat: Параметр lat должен быть числом в диапазоне от -90 до 90&#10;  Actual: &#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+1 expectation failed.
+XML path error.text doesn't match.
+Expected: lat: Параметр lat должен быть числом в диапазоне от -90 до 90
+  Actual: 
+
+	at SettlementTest.nearest_settlement_lat_below_minimum(SettlementTest.java:106)
+</failure>
+    <system-out><![CDATA[Request params:	distance=0
+				format=xml
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+]]></system-err>
+  </testcase>
+  <testcase name="nearest_settlement_without_distance" classname="SettlementTest" time="0.757">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at SettlementTest.nearest_settlement_without_distance(SettlementTest.java:191)
+]]></failure>
+    <system-out><![CDATA[Request params:	format=xml
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+]]></system-err>
+  </testcase>
+  <testcase name="nearest_settlement_without_format" classname="SettlementTest" time="0.772">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at SettlementTest.nearest_settlement_without_format(SettlementTest.java:153)
+]]></failure>
+    <system-out><![CDATA[Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+]]></system-err>
+  </testcase>
+</testsuite>

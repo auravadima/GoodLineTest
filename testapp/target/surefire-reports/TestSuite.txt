@@ -1,0 +1,75 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 26.206 s <<< FAILURE! - in TestSuite
+nearest_settlement_distance_equal_zero(SettlementTest)  Time elapsed: 1.099 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <500>.
+
+	at SettlementTest.nearest_settlement_distance_equal_zero(SettlementTest.java:82)
+
+nearest_settlement_lng_above_maximum(SettlementTest)  Time elapsed: 1.235 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path error.text doesn't match.
+Expected: lng: Параметр lng должен быть числом в диапазоне от -180 до 180
+  Actual: lat: Параметр lat должен быть числом в диапазоне от -90 до 90  lng: Параметр lng должен быть числом в диапазоне от -180 до 180
+
+	at SettlementTest.nearest_settlement_lng_above_maximum(SettlementTest.java:131)
+
+nearest_settlement_lng_below_minimum(SettlementTest)  Time elapsed: 1.087 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path error.text doesn't match.
+Expected: lng: Параметр lng должен быть числом в диапазоне от -180 до 180
+  Actual: lat: Параметр lat должен быть числом в диапазоне от -90 до 90  lng: Параметр lng должен быть числом в диапазоне от -180 до 180
+
+	at SettlementTest.nearest_settlement_lng_below_minimum(SettlementTest.java:119)
+
+nearest_settlement_standart_request(SettlementTest)  Time elapsed: 0.94 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at SettlementTest.nearest_settlement_standart_request(SettlementTest.java:33)
+
+nearest_settlement_standart_request_uk(SettlementTest)  Time elapsed: 1.058 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at SettlementTest.nearest_settlement_standart_request_uk(SettlementTest.java:45)
+
+nearest_settlement_without_Lang(SettlementTest)  Time elapsed: 1.193 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at SettlementTest.nearest_settlement_without_Lang(SettlementTest.java:142)
+
+nearest_settlement_without_format(SettlementTest)  Time elapsed: 1.017 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path title doesn't match.
+Expected: Керкира
+  Actual: Красноярск
+
+	at SettlementTest.nearest_settlement_without_format(SettlementTest.java:155)
+
+nearest_settlement_without_lng(SettlementTest)  Time elapsed: 1.035 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path error.text doesn't match.
+Expected: lng: Не указан параметр lng.
+  Actual: lat: Не указан параметр lat.  lng: Не указан параметр lng.
+
+	at SettlementTest.nearest_settlement_without_lng(SettlementTest.java:179)
+
+nearest_settlement_xml_test(SettlementTest)  Time elapsed: 0.883 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at SettlementTest.nearest_settlement_xml_test(SettlementTest.java:57)
+

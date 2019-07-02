@@ -1,0 +1,109 @@
+-------------------------------------------------------------------------------
+Test set: SettlementTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 13, Errors: 0, Skipped: 0, Time elapsed: 14.678 s <<< FAILURE! - in SettlementTest
+nearest_settlement_without_lng  Time elapsed: 1.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path error.text doesn't match.
+Expected: lng: Ќе указан параметр lng.
+  Actual: lat: Ќе указан параметр lat.  lng: Ќе указан параметр lng.
+
+	at SettlementTest.nearest_settlement_without_lng(SettlementTest.java:178)
+
+nearest_settlement_standart_request  Time elapsed: 1.144 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at SettlementTest.nearest_settlement_standart_request(SettlementTest.java:32)
+
+nearest_settlement_without_Lang  Time elapsed: 0.786 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at SettlementTest.nearest_settlement_without_Lang(SettlementTest.java:141)
+
+nearest_settlement_standart_request_uk  Time elapsed: 1.395 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at SettlementTest.nearest_settlement_standart_request_uk(SettlementTest.java:44)
+
+nearest_settlement_xml_test  Time elapsed: 1.545 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at SettlementTest.nearest_settlement_xml_test(SettlementTest.java:56)
+
+nearest_settlement_distance_above_maximum  Time elapsed: 1.475 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+XML path error.text doesn't match.
+Expected: distance: ѕараметр distance должен быть числом от 0 до 50, по умолчанию 10
+  Actual: 
+
+	at SettlementTest.nearest_settlement_distance_above_maximum(SettlementTest.java:69)
+
+nearest_settlement_lng_above_maximum  Time elapsed: 1.257 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+XML path error.text doesn't match.
+Expected: lng: ѕараметр lng должен быть числом в диапазоне от -180 до 180
+  Actual: 
+
+	at SettlementTest.nearest_settlement_lng_above_maximum(SettlementTest.java:130)
+
+nearest_settlement_lng_below_minimum  Time elapsed: 0.994 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+XML path error.text doesn't match.
+Expected: lng: ѕараметр lng должен быть числом в диапазоне от -180 до 180
+  Actual: 
+
+	at SettlementTest.nearest_settlement_lng_below_minimum(SettlementTest.java:118)
+
+nearest_settlement_lat_above_maximum  Time elapsed: 0.898 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+XML path error.text doesn't match.
+Expected: lat: ѕараметр lat должен быть числом в диапазоне от -90 до 90
+  Actual: 
+
+	at SettlementTest.nearest_settlement_lat_above_maximum(SettlementTest.java:94)
+
+nearest_settlement_distance_equal_zero  Time elapsed: 0.761 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+XML path error.text doesn't match.
+Expected: distance: ѕараметр distance должен быть числом от 0 до 50, по умолчанию 10
+  Actual: 
+
+	at SettlementTest.nearest_settlement_distance_equal_zero(SettlementTest.java:82)
+
+nearest_settlement_lat_below_minimum  Time elapsed: 1.092 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+XML path error.text doesn't match.
+Expected: lat: ѕараметр lat должен быть числом в диапазоне от -90 до 90
+  Actual: 
+
+	at SettlementTest.nearest_settlement_lat_below_minimum(SettlementTest.java:106)
+
+nearest_settlement_without_distance  Time elapsed: 0.757 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at SettlementTest.nearest_settlement_without_distance(SettlementTest.java:191)
+
+nearest_settlement_without_format  Time elapsed: 0.772 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at SettlementTest.nearest_settlement_without_format(SettlementTest.java:153)
+

@@ -13,33 +13,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SettlementTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="96" column="5" lean-forward="true" selection-start-line="84" selection-start-column="4" selection-end-line="96" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SettlementTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1562078085076" expanded="true" signature="6659:6979" ph="..." />
-                <marker date="1562078085076" expanded="true" signature="6666:6955" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CarriersTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="-68">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,10 +25,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CopyrightTests.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/YandexTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="204">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CarriersTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CopyrightTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,23 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-              <folding>
-                <element signature="e#85#86#0" expanded="true" />
-                <element signature="e#118#119#0" expanded="true" />
-                <element signature="e#154#155#0" expanded="true" />
-                <element signature="e#182#183#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -105,11 +91,21 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/Constants.java" />
         <option value="$PROJECT_DIR$/src/test/java/BodyBuilder.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/SettlementTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/MainTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CarriersTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RASetup.java" />
         <option value="$PROJECT_DIR$/src/test/java/CopyrightTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SettlementTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/YandexTests.java" />
+        <option value="$PROJECT_DIR$/src/resources/tpl/http-request.ftl" />
+        <option value="$PROJECT_DIR$/src/resources/tpl/http-response.ftl" />
+        <option value="$PROJECT_DIR$/src/test/java/AllureTestAssured.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MyAllureRestAssured.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CopyrightTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CarriersTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LogListener.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/SettlementTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/YandexTest.java" />
       </list>
     </option>
   </component>
@@ -156,6 +152,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="test-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="test-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -165,6 +170,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -182,94 +188,120 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CopyrightTests">
-    <configuration name="CarriersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SettlementTest.nearest_settlement_distance_above_maximum">
+    <configuration name="CarriersTest.carriers_multiple_result_by_one_iata" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test-app" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CarriersTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarriersTest.carriers_multiple_codes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test-app" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CarriersTest" />
-      <option name="METHOD_NAME" value="carriers_multiple_codes" />
+      <option name="METHOD_NAME" value="carriers_multiple_result_by_one_iata" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyrightTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SettlementTest.nearest_settlement_distance_above_maximum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test-app" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CopyrightTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="SettlementTest" />
+      <option name="METHOD_NAME" value="nearest_settlement_distance_above_maximum" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SettlementTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SettlementTest.nearest_settlement_lat_below_minimum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test-app" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SettlementTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="SettlementTest" />
+      <option name="METHOD_NAME" value="nearest_settlement_lat_below_minimum" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SettlementTests.nearest_settlement_without_distance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SettlementTest.nearest_settlement_standart_request" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test-app" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SettlementTests" />
+      <option name="MAIN_CLASS_NAME" value="SettlementTest" />
+      <option name="METHOD_NAME" value="nearest_settlement_standart_request" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SettlementTest.nearest_settlement_without_distance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-app" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SettlementTest" />
       <option name="METHOD_NAME" value="nearest_settlement_without_distance" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CarriersTest.carriers_multiple_result_by_one_iata" />
+      <item itemvalue="JUnit.SettlementTest.nearest_settlement_standart_request" />
+      <item itemvalue="JUnit.SettlementTest.nearest_settlement_without_distance" />
+      <item itemvalue="JUnit.SettlementTest.nearest_settlement_lat_below_minimum" />
+      <item itemvalue="JUnit.SettlementTest.nearest_settlement_distance_above_maximum" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CopyrightTests" />
-        <item itemvalue="JUnit.CarriersTest.carriers_multiple_codes" />
-        <item itemvalue="JUnit.CarriersTest" />
-        <item itemvalue="JUnit.SettlementTests.nearest_settlement_without_distance" />
-        <item itemvalue="JUnit.SettlementTests" />
+        <item itemvalue="JUnit.SettlementTest.nearest_settlement_distance_above_maximum" />
+        <item itemvalue="JUnit.SettlementTest.nearest_settlement_lat_below_minimum" />
+        <item itemvalue="JUnit.SettlementTest.nearest_settlement_standart_request" />
+        <item itemvalue="JUnit.SettlementTest.nearest_settlement_without_distance" />
+        <item itemvalue="JUnit.CarriersTest.carriers_multiple_result_by_one_iata" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="SettlementTests_nearest_settlement_standart_request - 2019.07.02 at 21h 11m 47s.xml">
-      <configuration name="SettlementTests.nearest_settlement_standart_request" configurationId="JUnit" />
+    <history-entry file="SettlementTest_nearest_settlement_without_distance - 2019.07.03 at 00h 14m 28s.xml">
+      <configuration name="SettlementTest.nearest_settlement_without_distance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SettlementTests_nearest_settlement_standart_request - 2019.07.02 at 21h 13m 27s.xml">
-      <configuration name="SettlementTests.nearest_settlement_standart_request" configurationId="JUnit" />
+    <history-entry file="SettlementTest_nearest_settlement_without_distance - 2019.07.03 at 00h 14m 59s.xml">
+      <configuration name="SettlementTest.nearest_settlement_without_distance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SettlementTests_nearest_settlement_standart_request - 2019.07.02 at 21h 14m 07s.xml">
-      <configuration name="SettlementTests.nearest_settlement_standart_request" configurationId="JUnit" />
+    <history-entry file="SettlementTest_nearest_settlement_without_distance - 2019.07.03 at 00h 16m 16s.xml">
+      <configuration name="SettlementTest.nearest_settlement_without_distance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SettlementTests_nearest_settlement_standart_request - 2019.07.02 at 21h 16m 29s.xml">
-      <configuration name="SettlementTests.nearest_settlement_standart_request" configurationId="JUnit" />
+    <history-entry file="SettlementTest_nearest_settlement_without_distance - 2019.07.03 at 00h 18m 33s.xml">
+      <configuration name="SettlementTest.nearest_settlement_without_distance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SettlementTests - 2019.07.02 at 21h 25m 25s.xml">
-      <configuration name="SettlementTests" configurationId="JUnit" />
+    <history-entry file="SettlementTest_nearest_settlement_without_distance - 2019.07.03 at 00h 26m 11s.xml">
+      <configuration name="SettlementTest.nearest_settlement_without_distance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SettlementTests_nearest_settlement_without_distance - 2019.07.02 at 21h 26m 01s.xml">
-      <configuration name="SettlementTests.nearest_settlement_without_distance" configurationId="JUnit" />
+    <history-entry file="SettlementTest_nearest_settlement_standart_request - 2019.07.03 at 00h 48m 07s.xml">
+      <configuration name="SettlementTest.nearest_settlement_standart_request" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SettlementTests_nearest_settlement_without_distance - 2019.07.02 at 21h 27m 05s.xml">
-      <configuration name="SettlementTests.nearest_settlement_without_distance" configurationId="JUnit" />
+    <history-entry file="SettlementTest_nearest_settlement_lat_below_minimum - 2019.07.03 at 00h 48m 34s.xml">
+      <configuration name="SettlementTest.nearest_settlement_lat_below_minimum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SettlementTests_nearest_settlement_without_distance - 2019.07.02 at 21h 29m 45s.xml">
-      <configuration name="SettlementTests.nearest_settlement_without_distance" configurationId="JUnit" />
+    <history-entry file="SettlementTest_nearest_settlement_lat_below_minimum - 2019.07.03 at 00h 52m 25s.xml">
+      <configuration name="SettlementTest.nearest_settlement_lat_below_minimum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CarriersTest - 2019.07.02 at 21h 35m 10s.xml">
-      <configuration name="CarriersTest" configurationId="JUnit" />
+    <history-entry file="SettlementTest_nearest_settlement_lat_below_minimum - 2019.07.03 at 00h 53m 07s.xml">
+      <configuration name="SettlementTest.nearest_settlement_lat_below_minimum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CarriersTest_carriers_multiple_codes - 2019.07.02 at 21h 41m 41s.xml">
-      <configuration name="CarriersTest.carriers_multiple_codes" configurationId="JUnit" />
+    <history-entry file="SettlementTest_nearest_settlement_distance_above_maximum - 2019.07.03 at 01h 14m 04s.xml">
+      <configuration name="SettlementTest.nearest_settlement_distance_above_maximum" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -278,7 +310,7 @@
     <layout>
       <window_info id="Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21529563" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21529563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
@@ -286,7 +318,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32974428" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -298,18 +330,14 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ftl" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/BodyBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -327,10 +355,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="96" column="5" lean-forward="true" selection-start-line="84" selection-start-column="4" selection-end-line="96" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/tpl/http-request.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyAllureRestAssured.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/tpl/http-response.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="61" column="7" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="46" />
           <folding>
             <element signature="e#85#86#0" expanded="true" />
             <element signature="e#118#119#0" expanded="true" />
@@ -340,39 +402,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SettlementTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1562078085076" expanded="true" signature="6659:6979" ph="..." />
-            <marker date="1562078085076" expanded="true" signature="6666:6955" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="96" column="5" lean-forward="true" selection-start-line="84" selection-start-column="4" selection-end-line="96" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CarriersTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="204">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CopyrightTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CopyrightTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="136">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LogListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SettlementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/YandexTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
